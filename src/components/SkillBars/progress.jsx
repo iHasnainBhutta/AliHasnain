@@ -51,7 +51,7 @@ const mySkills = [
 
   {
     id: 5,
-    icon: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAACX0lEQVR4AcXTA4wcUQDG8bNthLVtM2bjhrUZ1rbNY1QjqG1FdVTbWOvr1+07zNvt7LxFLsnvtDPz/14uEwWgTmW0P4OpBUWFDPBhZMBsukGxDTVgP4Fm+vmsHfWI9ICnBLJQU+mz1XQ0kgNSyUUQrlKM+CyG3pKbmkRqQDeCZJr4bChB2PG/qOdWqzjDA77OT9PgTWMJEhM1pmqCYKE8n/vvtGhBu0MZsI0gs2+Lf+DcFWOR/r5AiremD/QilAHXCLKfy5JhWpMs//0zJYt4B/pEII/jUpt05QG8IZp++Tk9+Dm+LUiDp8xn3DgGO9EXQg3X1dbdgxnQhCD7sTQV/NzLsjFe+/mBlNcMfifU577eamQwA4bJcdtW7+lrfV+cBlTUxoFbTUVUi2/CumAGLNIMYIhBhrX4L9GNCyeDGXCcUMO6WZxeYt6ZrRsXXgcz4DmB4Pl7+kW+8V9b8uG52VxE9PFNyDQ8gNEszek3xvvGtzJ+Sz8uvQm9VAb0rz19eTS+LdTGf2/LBxTi4k0YqzJgKoFgWZ+oje8oVI6LN2GjyoAygruMp19QL76T8dsKYa2zKgPuEcxrE+viu6S4uveGBjAcR1b33hh8Fac37dGJK3BeapNjZEArgml18r94WZFySOdN6GtkwHDX7hhv3FyuF1fnvtFqgpEBq3+vSoa5siT0qMRzu8XWgAMcO+JumipLwx7n6WE/3+ZiwAGmilKX9XQ78GLwpnCFwWeCPgUcwIsG0CWC0hCdsHCJBugM0FIfohaWB6gPUQwrDFAbohrWH6A+RD+sPkB9iHJY8gfPtF+WYjP8ZwAAAABJRU5ErkJggg==",
+    icon: "https://developers.google.com/static/devcenter/icons/icon-firebase.svg",
     lang_name: "Firebase",
     exp_level: "Intermediate"
   },

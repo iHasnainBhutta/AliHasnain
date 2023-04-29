@@ -395,7 +395,8 @@ nav {
   }
 }
 .devman {
-  color: var(--color-button-hover) !important;
+  /* color: var(--color-button-hover) !important; */
+  color: #ffff;
   font-size: 1.6rem !important;
   display: flex;
   justify-content: center;

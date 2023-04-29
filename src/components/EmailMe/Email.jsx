@@ -3,6 +3,35 @@ import "./Email.css";
 import { useGetContactsQuery } from "../../Api/api";
 import emailjs from "@emailjs/browser";
 
+const myContact = [
+
+  {
+    id: 1,
+    icon: "bx bx-phone",
+    contact_name: "Call Me",
+    contact_info: "+92 306 9597579",
+  },
+  {
+
+    id: 2,
+    icon: "bx bx-envelope",
+    contact_name: "Email Me",
+    contact_info: "ihasnainbhutta@gmail.com"
+  },
+  {
+    id: 3,
+    icon: "fa fa-map-marker",
+    contact_name: "Location",
+    contact_info: "Multan, Punjab, Pakistan",
+  },
+
+
+
+
+
+]
+
+
 const Email = (e) => {
   const form = useRef();
   const sendEmail = (e) => {
@@ -10,10 +39,10 @@ const Email = (e) => {
 
     emailjs
       .sendForm(
-        process.env.REACT_APP_SERVICE_ID,
-        process.env.REACT_APP_TEMPLATE_ID,
+        "service_buayiri",
+        "template_sxmfyfz",
         form.current,
-        process.env.REACT_APP_USER_ID
+        "jao8M_AQ2OAnSlqHM"
       )
       .then(
         (result) => {
@@ -45,8 +74,8 @@ const Email = (e) => {
           <div className="col-md-5">
             <div className="reachme-title">
               <div className="row">
-                {contactsDetails &&
-                  contactsDetails.map((details) => (
+                { 
+                  myContact.map((details) => (
                     <div className="contact-info  " key={details.id}>
                       <div className="contact-details">
                         <i className={details.icon}></i>
